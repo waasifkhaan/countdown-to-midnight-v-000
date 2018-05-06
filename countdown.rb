@@ -4,7 +4,8 @@ def countdown(number)
   while number > 0 
     "#{number} SECOND(S)!"
         number -= 1
-        sleep 1 
+        sleep (0.99)
+      end
         
   
 end
